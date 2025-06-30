@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Economics of Education | CJ Libassi</title>
-    <link>https://cjlibassi.com/tags/economics-of-education/</link>
-      <atom:link href="https://cjlibassi.com/tags/economics-of-education/index.xml" rel="self" type="application/rss+xml" />
-    <description>Economics of Education</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <title>Higher Education | CJ Libassi</title>
+    <link>https://cjlibassi.com/tags/higher-education/</link>
+      <atom:link href="https://cjlibassi.com/tags/higher-education/index.xml" rel="self" type="application/rss+xml" />
+    <description>Higher Education</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://cjlibassi.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_box_center_3.png</url>
-      <title>Economics of Education</title>
-      <link>https://cjlibassi.com/tags/economics-of-education/</link>
+      <title>Higher Education</title>
+      <link>https://cjlibassi.com/tags/higher-education/</link>
     </image>
-    
-    <item>
-      <title>An Overview of Graduate Borrowing and Outcomes</title>
-      <link>https://cjlibassi.com/publication/anoverviewofgraduateborrowingandoutcomes/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://cjlibassi.com/publication/anoverviewofgraduateborrowingandoutcomes/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>A Closer Look at College Affordability: The Link between Living Allowances and Student Debt</title>
@@ -77,6 +69,14 @@
     </item>
     
     <item>
+      <title>The Neglected College Race Gap: Racial Disparities Among College Completers</title>
+      <link>https://cjlibassi.com/publication/theneglectedcollegeracegapracialdisparitiesamongco/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://cjlibassi.com/publication/theneglectedcollegeracegapracialdisparitiesamongco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Trends in College Pricing 2018</title>
       <link>https://cjlibassi.com/publication/trendsincollegepricing2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
@@ -89,6 +89,30 @@
       <link>https://cjlibassi.com/publication/trendsinstudentaid2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://cjlibassi.com/publication/trendsinstudentaid2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pay Long and Don’t PROSPER</title>
+      <link>https://cjlibassi.com/publication/paylonganddontprosper/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://cjlibassi.com/publication/paylonganddontprosper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How Gainful Employment Reduces the Government’s Loan Forgiveness Costs</title>
+      <link>https://cjlibassi.com/publication/howgainfulemploymentreducesthegovernmentsloanforgi/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
+      <guid>https://cjlibassi.com/publication/howgainfulemploymentreducesthegovernmentsloanforgi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sharing the Risk: A Plan for Colleges to Participate in the Costs of Student Loan Failure</title>
+      <link>https://cjlibassi.com/publication/sharingtheriskaplanforcollegestoparticipateintheco/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://cjlibassi.com/publication/sharingtheriskaplanforcollegestoparticipateintheco/</guid>
       <description></description>
     </item>
     
