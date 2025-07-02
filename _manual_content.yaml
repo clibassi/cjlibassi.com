@@ -1,0 +1,96 @@
+# Manual Content Configuration - Edit this file to customize site content
+# This file contains content that cannot be auto-generated from ORCID
+# 
+# INSTRUCTIONS FOR EDITING:
+# 1. Replace all [EDIT ME] placeholders with your actual content
+# 2. Keep the YAML structure intact (maintain indentation)
+# 3. Use | for multi-line text blocks
+# 4. After editing, commit changes and redeploy site
+#
+# FILE LOCATION: This file is in the content/ directory for easy access
+
+personal:
+  bio_text: |
+    [EDIT ME] - Write your personal bio text here.
+    This will replace any auto-generated bio content.
+    Keep it concise but comprehensive, highlighting your key background and current position.
+  
+  research_interests:
+    - "[EDIT ME] - Research interest 1"
+    - "[EDIT ME] - Research interest 2" 
+    - "[EDIT ME] - Research interest 3"
+    - "[EDIT ME] - Research interest 4"
+
+teaching:
+  experience:
+    - title: "[EDIT ME] - Course Title or Teaching Role"
+      institution: "[EDIT ME] - Institution Name"
+      department: "[EDIT ME] - Department Name (optional)"
+      year_range: "[EDIT ME] - Year range (e.g., 2018-2021)"
+      location: "[EDIT ME] - City, State/Country"
+      description: |
+        [EDIT ME] - Detailed description of the course, your role, and key accomplishments.
+        
+        You can include multiple paragraphs here. For example:
+        - Course topics covered
+        - Teaching methods used
+        - Student outcomes or feedback
+        - Any innovative approaches you implemented
+    
+    - title: "[EDIT ME] - Another Course or TA Position"
+      institution: "[EDIT ME] - Institution"
+      department: "[EDIT ME] - Department"
+      year_range: "[EDIT ME] - Year range"
+      location: "[EDIT ME] - Location"
+      description: |
+        [EDIT ME] - Description of this teaching experience.
+        
+        Add as many bullet points or paragraphs as needed to describe your role.
+
+  philosophy: |
+    [EDIT ME] - Your teaching philosophy or approach (optional).
+    
+    This section can describe your overall approach to education, 
+    what you believe makes effective teaching, etc.
+
+awards_and_honors:
+  - title: "[EDIT ME] - Award or Honor Name"
+    year: "[EDIT ME] - Year received"
+    organization: "[EDIT ME] - Granting organization"
+    description: "[EDIT ME] - Brief description of the award"
+  
+  - title: "[EDIT ME] - Another Award"
+    year: "[EDIT ME] - Year"
+    organization: "[EDIT ME] - Organization"
+    description: "[EDIT ME] - Description"
+
+presentations:
+  - title: "[EDIT ME] - Presentation Title"
+    event: "[EDIT ME] - Conference or Event Name"
+    year: "[EDIT ME] - Year"
+    location: "[EDIT ME] - City, State/Country"
+    type: "[EDIT ME] - e.g., Keynote, Panel, Poster"
+
+media_mentions:
+  - title: "[EDIT ME] - Article or Interview Title"
+    outlet: "[EDIT ME] - Media Outlet Name"
+    date: "[EDIT ME] - Date"
+    url: "[EDIT ME] - URL to article/interview"
+    description: "[EDIT ME] - Brief description of the coverage"
+
+other_content:
+  # Add any other manually curated sections as needed
+  consulting_experience: |
+    [EDIT ME] - Consulting or advisory roles you want to highlight
+  
+  professional_service: |
+    [EDIT ME] - Professional service activities, editorial boards, etc.
+  
+  languages: |
+    [EDIT ME] - Languages spoken and proficiency levels
+
+# NOTES:
+# - To add more teaching experiences, copy the teaching.experience block and modify
+# - To remove sections you don't need, simply delete them or comment out with #
+# - Remember to maintain proper YAML indentation (use spaces, not tabs)
+# - After editing, run: git add content/_manual_content.yaml && git commit -m "Update manual content"
