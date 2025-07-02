@@ -11,41 +11,23 @@
 
 personal:
   bio_text: |
-    [EDIT ME] - Write your personal bio text here.
-    This will replace any auto-generated bio content.
-    Keep it concise but comprehensive, highlighting your key background and current position.
+    I am a 4th-year PhD student in Economics and Education at Teachers College, Columbia University and recently completed a stint serving in the Biden Administration as a Senior Advisor in the US Department of Education's Office of the Chief Economist in the Office of the Undersecretary. My research interests are in the economics of higher education, especially the design and evaluation of policies promoting college access and success. My policy expertise lies in student loans and institutional accountability policies in higher education.
   
   research_interests:
-    - "[EDIT ME] - Research interest 1"
-    - "[EDIT ME] - Research interest 2" 
-    - "[EDIT ME] - Research interest 3"
-    - "[EDIT ME] - Research interest 4"
+    - "Higher education finance"
+    - "Student financial aid"
+    - "College access and affordability"
+    - "Education policy"
 
 teaching:
   experience:
-    - title: "[EDIT ME] - Course Title or Teaching Role"
-      institution: "[EDIT ME] - Institution Name"
-      department: "[EDIT ME] - Department Name (optional)"
-      year_range: "[EDIT ME] - Year range (e.g., 2018-2021)"
-      location: "[EDIT ME] - City, State/Country"
+    - title: "Professorial Lecturer"
+      institution: "George Washington University"
+      department: "School of Media & Public Affairs"
+      year_range: "2018-01-01 - 2021-05-31"
+      location: "Washington, DC"
       description: |
-        [EDIT ME] - Detailed description of the course, your role, and key accomplishments.
-        
-        You can include multiple paragraphs here. For example:
-        - Course topics covered
-        - Teaching methods used
-        - Student outcomes or feedback
-        - Any innovative approaches you implemented
-    
-    - title: "[EDIT ME] - Another Course or TA Position"
-      institution: "[EDIT ME] - Institution"
-      department: "[EDIT ME] - Department"
-      year_range: "[EDIT ME] - Year range"
-      location: "[EDIT ME] - Location"
-      description: |
-        [EDIT ME] - Description of this teaching experience.
-        
-        Add as many bullet points or paragraphs as needed to describe your role.
+        Taught "Data Analysis for Journalism and Political Communication" (SMPA 2152) to undergraduate Journalism and Political Communications majors. The course focused on introductory statistics and data analysis using Stata.
 
   philosophy: |
     [EDIT ME] - Your teaching philosophy or approach (optional).
