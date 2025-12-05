@@ -30,10 +30,10 @@
   
     
   
-  <meta name="description" content="I am a fifth-year PhD candidate in Economics and Education at Teachers College, Columbia University and a 2025–26 job market candidate in the economics of education. In January 2024, I completed a stint serving in the Biden Administration as a Senior Advisor in the U.S. Department of Education&#39;s Office of the Chief Economist. My research focuses on the economics of education, especially the design and evaluation of policies promoting college access and success, and my policy expertise lies in student loans and institutional accountability.">
+  <meta name="description" content=" ">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://cjlibassi.com/authors/authors/">
+  <link rel="alternate" hreflang="en-us" href="https://cjlibassi.com/jmp/">
 
   
 
@@ -226,14 +226,12 @@
   
 
   
-  <link rel="alternate" href="/authors/authors/index.xml" type="application/rss+xml" title="CJ Libassi">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_box_center_3.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_box_center_3.png">
 
-  <link rel="canonical" href="https://cjlibassi.com/authors/authors/">
+  <link rel="canonical" href="https://cjlibassi.com/jmp/">
 
   
   
@@ -252,29 +250,34 @@
   <meta property="twitter:creator" content="@clibassi">
   
   <meta property="og:site_name" content="CJ Libassi">
-  <meta property="og:url" content="https://cjlibassi.com/authors/authors/">
-  <meta property="og:title" content="CJ Libassi | CJ Libassi">
-  <meta property="og:description" content="I am a fifth-year PhD candidate in Economics and Education at Teachers College, Columbia University and a 2025–26 job market candidate in the economics of education. In January 2024, I completed a stint serving in the Biden Administration as a Senior Advisor in the U.S. Department of Education&#39;s Office of the Chief Economist. My research focuses on the economics of education, especially the design and evaluation of policies promoting college access and success, and my policy expertise lies in student loans and institutional accountability."><meta property="og:image" content="https://cjlibassi.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_box_center_3.png">
+  <meta property="og:url" content="https://cjlibassi.com/jmp/">
+  <meta property="og:title" content="Job Market Paper | CJ Libassi">
+  <meta property="og:description" content=" "><meta property="og:image" content="https://cjlibassi.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_box_center_3.png">
   <meta property="twitter:image" content="https://cjlibassi.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_box_center_3.png"><meta property="og:locale" content="en-us">
   
     
+      <meta property="article:published_time" content="2025-12-05T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2025-12-05T00:00:00&#43;00:00">
   
 
   
 
 
 
-
   
 
 
   
 
 
+  
 
 
 
-  <title>CJ Libassi | CJ Libassi</title>
+
+
+  <title>Job Market Paper | CJ Libassi</title>
 
 </head>
 
@@ -557,260 +560,97 @@
 
 
   
+<article class="article">
+  <div class="container" style="max-width: 600px; margin: 4rem auto; padding: 2rem;">
 
-
-
-
-<section id="profile-page" class="pt-5">
-  <div class="container">
-    
-    
+    <div class="article-header" style="text-align: center; margin-bottom: 2rem;">
+      <h1 style="font-size: 2rem; margin-bottom: 0.5rem;">Job Market Paper</h1>
       
+      <p style="font-size: 1.2rem; color: #666; margin-top: 0.5rem;">Password-Protected Draft Access</p>
       
-      
-      
+    </div>
+
+    <div id="password-form" style="background: #f8f9fa; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+      <p style="margin-bottom: 1.5rem; color: #555;">This page is password-protected. Please enter the password to access the job market paper draft.</p>
+
+      <div style="margin-bottom: 1rem;">
+        <input
+          type="password"
+          id="password-input"
+          placeholder="Enter password"
+          style="width: 100%; padding: 0.75rem; font-size: 1rem; border: 1px solid #ccc; border-radius: 4px;"
+          onkeypress="if(event.key === 'Enter') checkPassword()"
+        />
+      </div>
+
+      <button
+        onclick="checkPassword()"
+        style="width: 100%; padding: 0.75rem; font-size: 1rem; background: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; font-weight: 500;"
+      >
+        Access Paper
+      </button>
+
+      <div id="error-message" style="display: none; margin-top: 1rem; padding: 0.75rem; background: #f8d7da; color: #721c24; border-radius: 4px; border: 1px solid #f5c6cb;">
+        Incorrect password. Please try again.
+      </div>
+    </div>
+
+    <div id="loading-message" style="display: none; text-align: center; margin-top: 2rem;">
+      <p style="font-size: 1.2rem; color: #007bff;">Access granted. Redirecting to paper...</p>
+    </div>
+
+    <!-- This page requires password authentication to access the job market paper draft -->
+<!-- Password is required to view the PDF -->
+<!-- For questions or access issues, contact via the main site contact form -->
 
 
+  </div>
+</article>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+<script>
+
+const CORRECT_HASH = "50a6f497bd196dde0c3af69bf61eb1877a6ef496f5335c0c51f26e1ecc2f5359"; 
+const PDF_URL = "/files/jmp-draft-a7f3e9c2.pdf";
+
+function checkPassword() {
+  const input = document.getElementById('password-input').value;
+  const errorDiv = document.getElementById('error-message');
+  const loadingDiv = document.getElementById('loading-message');
+  const formDiv = document.getElementById('password-form');
 
   
+  const hash = CryptoJS.SHA256(input).toString();
 
-
-
-
-
-
-
-
-
-
-<div class="row">
-  <div class="col-12 col-lg-4">
-    <div id="profile">
-
-      
-      
-      <img class="avatar avatar-circle" src="/authors/authors/avatar_hu60a93ea3b5e15b389d4bf1782be42432_153654_270x270_fill_q75_box_center.jpg" alt="CJ Libassi">
-      
-
-      <div class="portrait-title">
-        <h2>CJ Libassi</h2>
-        <h3>PhD Student</h3>
-
-        
-        <h3>
-          <a href="https://www.tc.columbia.edu/" target="_blank" rel="noopener">
-          <span>Teachers College, Columbia University</span>
-          </a>
-        </h3>
-        
-      </div>
-
-      <ul class="network-icon" aria-hidden="true">
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="/#contact" >
-            <i class="fas fa-envelope big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="http://www.scopus.com/inward/authorDetails.url?authorID=57190596543&amp;partnerID=MN8TOARS" target="_blank" rel="noopener">
-            <i class="ai ai-scopus big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://scholar.google.com/citations?user=nagn3_0AAAAJ&amp;hl=en" target="_blank" rel="noopener">
-            <i class="ai ai-google-scholar big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://github.com/clibassi" target="_blank" rel="noopener">
-            <i class="fab fa-github big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://twitter.com/clibassi" target="_blank" rel="noopener">
-            <i class="fab fa-twitter big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://bsky.app/profile/clibassi.bsky.social" target="_blank" rel="noopener">
-            <i class="fab fa-bluesky big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="/files/cv.pdf" >
-            <i class="ai ai-cv big-icon"></i>
-          </a>
-        </li>
-        
-      </ul>
-
-    </div>
-  </div>
-  <div class="col-12 col-lg-8">
+  if (hash === CORRECT_HASH) {
+    
+    formDiv.style.display = 'none';
+    errorDiv.style.display = 'none';
 
     
-    
+    loadingDiv.style.display = 'block';
 
     
+    setTimeout(function() {
+      window.location.href = PDF_URL;
+    }, 500);
+  } else {
     
-      <p>I am a fifth-year PhD candidate in Economics and Education at Teachers College, Columbia University and a 2025–26 job market candidate in the economics of education. In January 2024, I completed a stint serving in the Biden Administration as a Senior Advisor in the U.S. Department of Education&rsquo;s Office of the Chief Economist. My research focuses on the economics of education, especially the design and evaluation of policies promoting college access and success, and my policy expertise lies in student loans and institutional accountability.</p>
-<!-- This file is automatically generated from ORCID data. Do not edit manually. -->
-<!-- Last generated: 2025-12-05 20:22:57.995499 -->
-<!-- ORCID ID: 0000-0002-5921-2695 -->
+    errorDiv.style.display = 'block';
 
     
+    document.getElementById('password-input').value = '';
+    document.getElementById('password-input').focus();
+  }
+}
 
-    <div class="row">
 
-      
-      
-      
-      <div class="col-md-5">
-        <h3>Interests</h3>
-        <ul class="ul-interests">
-          
-          <li>Economics of higher education</li>
-          
-          <li>College access and affordability</li>
-          
-          <li>Student financial aid</li>
-          
-          <li>Randomized control trials</li>
-          
-        </ul>
-      </div>
-      
+document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById('password-input').focus();
+});
+</script>
 
-      
-      <div class="col-md-7">
-        <h3>Education</h3>
-        <ul class="ul-edu fa-ul">
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">PhD, 2021 (ongoing)</p>
-              <p class="institution">Teachers College</p>
-            </div>
-          </li>
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">Master of Public Policy, 2015</p>
-              <p class="institution">University of Michigan</p>
-            </div>
-          </li>
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">Master of Arts in Teaching, 2012</p>
-              <p class="institution">American University</p>
-            </div>
-          </li>
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">Bachelor of Arts, 2010</p>
-              <p class="institution">University of Scranton</p>
-            </div>
-          </li>
-          
-        </ul>
-      </div>
-      
 
-    </div>
-  </div>
-</div>
-    
-
-    
-    
-    
-  </div>
-</section>
 
       
 
