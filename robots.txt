@@ -1,0 +1,76 @@
+# robots.txt - cjlibassi.com
+#
+# Policy: maximise discoverability in search AND in AI-assistant answers, and
+# opt out of pure model-training crawls only where that costs nothing.
+#
+# The audience for this site is journalists on deadline, congressional and
+# agency staff, co-authors, funders and programme officers. Being surfaced and
+# cited in an AI answer is the same win as being surfaced in search, so the
+# retrieval crawlers are deliberately allowed. Only crawlers that ingest
+# without ever citing are blocked.
+#
+# Two honest caveats. robots.txt is voluntary: well-behaved crawlers honour it
+# and others demonstrably do not. And the canonical copies of these papers live
+# on nber.org, aeaweb.org and elsewhere, so blocking this mirror does not
+# remove the work from any training corpus. The blocks below are a stance, not
+# a protection.
+
+# Default: everything is crawlable, including the PDFs in /files/. Journalists
+# and Google Scholar frequently land on the paper PDFs directly, so those must
+# stay indexable.
+User-agent: *
+Disallow:
+
+# --- Training-only crawlers -------------------------------------------------
+# Each operator below documents that its training crawler is separate from its
+# search/answer crawler, so blocking these costs no discoverability.
+
+# OpenAI model training. ChatGPT search uses OAI-SearchBot, which is unaffected.
+User-agent: GPTBot
+Disallow: /
+
+# Anthropic model training. Claude-SearchBot and Claude-User are unaffected.
+User-agent: ClaudeBot
+Disallow: /
+
+# Apple foundation-model training. Siri and Spotlight crawl as Applebot and are
+# unaffected; Apple states pages disallowing this token still appear in search.
+User-agent: Applebot-Extended
+Disallow: /
+
+# Meta's training/indexing agent. Link previews (facebookexternalhit) and Meta
+# AI search (meta-webindexer) are unaffected.
+User-agent: meta-externalagent
+Disallow: /
+
+# ByteDance. Publishes no crawler documentation and has a poor record of
+# honouring robots.txt, so treat this as best-effort only.
+User-agent: Bytespider
+Disallow: /
+
+# Cohere training crawler.
+User-agent: cohere-training-data-crawler
+Disallow: /
+
+# --- Deliberately NOT blocked -----------------------------------------------
+# Do not add these without re-reading the reasoning:
+#
+#   Googlebot, Bingbot, Amazonbot   search and assistant answers
+#   OAI-SearchBot, ChatGPT-User     ChatGPT retrieval and citation
+#   Claude-SearchBot, Claude-User   Claude retrieval and citation
+#   PerplexityBot, Perplexity-User  Perplexity citation
+#   Applebot                        Siri and Spotlight
+#
+#   Google-Extended   Google bundles Gemini GROUNDING with training under this
+#                     one token. Blocking it would keep this work out of
+#                     grounded Gemini answers, which is precisely the citation
+#                     this site exists to earn. The training rider is the price.
+#
+#   CCBot             Common Crawl feeds academic research as well as model
+#                     training. Blocking it would cut against the research
+#                     community this site belongs to.
+#
+# Bingbot and Amazonbot are single dual-use crawlers: their training use cannot
+# be separated from their search use via robots.txt, and search is worth more.
+
+Sitemap: https://cjlibassi.com/sitemap.xml
